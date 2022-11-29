@@ -49,28 +49,3 @@
   chainId: 31337,
   wait: [Function (anonymous)]
 } 3. contract address:  0x5FbDB2315678afecb367f032d93F642f64180aa3
-
-
-
-
-// const hre = require("hardhat");
-
-// async function main() {
-//   const [receiver] = await hre.ethers.getSigners();
-
-//   const fundTransfer = await hre.ethers.getContractFactory("FundContract");
-//   const fund = await fundTransfer.deploy();
-//   await fund.deployed();
-
-//   const addEth = await fund.addEth();
-//   const getEth = await fund.getEth();
-//   const sendEth = await fund.sendEth(receiver.address, 1000);
-
-//   console.log("1. contract-address: ", fund.address);
-
-// }
-
-// main().catch((error) => {
-//   console.error(error);
-//   process.exitCode = 1;
-// });
